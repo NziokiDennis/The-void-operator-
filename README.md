@@ -1,2 +1,6 @@
 # The-void-operator-
-Void operator returns undefined 
+ 
+function foo(){
+ return void 0;
+}
+console.log(foo()); // undefined
